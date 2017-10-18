@@ -20,7 +20,7 @@ import CMclustering
 
 Functions: 
 
-* **normalize** - Returns normalizes data set from 0 to 1
+* **normalize** - Returns normalized data set from 0 to 1
 
 * **threshBackground** - Returns coordinated from a given data set that have weighted (mass) values above some specified threshold
 
