@@ -26,6 +26,6 @@ Functions:
 
 * **initialCentroids** - Returns the position of a specified number of centroids located on randoms points of the given data
 
-* **centroidIdx** - Returns and index for which centroid is closest to each point with or without a weighted value factored in
+* **centroidIdx** - Returns an index labeling which centroid is closest to each point with or without a weighted value factored in
 
 * **newCentroid** - Returns new centroid locations calculated from the center of mass for the points assigned to their respective original centroid
