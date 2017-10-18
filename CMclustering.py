@@ -3,6 +3,24 @@
 import numpy as np
 import random
 
+<<<<<<< HEAD
+=======
+__all__ = ['initialCentroids','centroidIdx','newCentroid']
+
+#Normalize Data set from 0 to 1
+def normalize(z):
+    zNormalized = z - z.min()
+    zNormalized = zNormalized/zNormalized.max()
+    
+    return zNormalized
+
+#Remove background noise by removing data below lower limit
+def threshBackground(X,z,thresh):
+    #X: coordinate
+    #z: the weight (mass) corresponding to the coordinates in X
+    index = np.where(z > thresh)              
+    return [X[index[0],:],z[index[0]]]
+>>>>>>> 0b802186cd56a3025aefeebebb0e87b862d57860
 
 #Initaite the number of centeroids at random
 def initialCentroids(X,K):
