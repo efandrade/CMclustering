@@ -12,10 +12,9 @@ You will need to have the following libraries installed:
 
 Download CMclustering.py script and load
 
-‘’’
+```
 import CMclustering
-
-‘’’
+```
 
 ### Using pycpselect
 
@@ -30,4 +29,3 @@ Functions:
 * **centroidIdx** - Returns and index for which centroid is closest to each point with or without a weighted value factored in
 
 * **newCentroid** - Returns new centroid locations calculated from the center of mass for the points assigned to their respective original centroid
-
