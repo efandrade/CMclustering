@@ -8,6 +8,8 @@ You will need to have the following libraries installed:
 * numpy
 * random
 
+Data sent to functions should be a numpy array
+
 ### Installing
 
 Download CMclustering.py script and load
@@ -20,9 +22,13 @@ import CMclustering
 
 Functions: 
 
+**datamanip.py**
+
 * **normalize** - Returns normalized data set from 0 to 1
 
 * **threshBackground** - Returns coordinated from a given data set that have weighted (mass) values above some specified threshold
+
+**CMclustering.py**
 
 * **initialCentroids** - Returns the position of a specified number of centroids located on randoms points of the given data
 
