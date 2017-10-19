@@ -18,7 +18,7 @@ Download CMclustering.py script and load
 import CMclustering
 ```
 
-### Using pycpselect
+### Using CMclustering
 
 Functions: 
 
